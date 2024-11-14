@@ -1,6 +1,8 @@
 body {
     font-family: sans-serif;
     background-color: black;
+    color: white;
+    margin: 0;
 }
 
 header {
@@ -8,15 +10,22 @@ header {
     justify-content: space-between;
     padding: 15px;
     margin-bottom: 20px;
+    align-items: center;
+}
+
+header img {
+    width: 280px;
+    height: 75px;
 }
 
 .button {
     background-color: #36bbce;
-    color: black;
-    text-decoration: none;
     padding: 15px;
+    font-weight: 700;
     font-size: 24px;
+    color: #000;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 nav {
@@ -28,27 +37,32 @@ nav {
 }
 
 .nav-link {
-    font-size: 24px;
-    color: white;
     text-decoration: none;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
 }
 
 h1 {
-    text-align: center;
-    color: white;
+    font-weight: 700;
     font-size: 36px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 34px;
     margin-top: 45px;
-    margin-bottom: 40px;
 }
 
 p {
-    font-size: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
 }
 
 .info {
     display: flex;
     flex-wrap: wrap;
     max-width: 1100px;
+    margin: 0 auto;
 }
 
 article {
@@ -58,19 +72,28 @@ article {
     margin: 20px;
 }
 
+article h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+
 .article-but {
     text-decoration: none;
-    background-color: #133aac;
-    color: white;
+    background: #2fa3b4;
+    font-weight: 700;
     font-size: 24px;
     text-align: center;
-    padding: 10px 75px 10px 75px;
+    color: #fff;
+    padding: 10px 71px 10px 71px;
 }
 
 footer {
-    background-color: #5fc0ec;
+    background: #2fa3b4;
     display: flex;
-    padding: 40px 0px 45px 45px;
+    align-items: center;
+    padding: 45px 0px 45px 70px;
 }
 
 footer a {
@@ -79,4 +102,27 @@ footer a {
 
 footer p {
     font-size: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+.about {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.about li {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.about img {
+    border: 5px solid #fff;
+    width: 385px;
+    height: 385px;
+    margin-left: 30px;
 }
